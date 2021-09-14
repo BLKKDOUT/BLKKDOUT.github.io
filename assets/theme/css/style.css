@@ -11,6 +11,18 @@ body {
   position: relative;
 }
 
+@media (prefers-color-scheme: dark) {
+  section{
+    color: #eee;
+  }
+	body{
+		background: #121212;
+	}
+  section a {
+    color: #809fff;
+  }
+}
+
 button {
   background-color: transparent;
   border-color: transparent;
