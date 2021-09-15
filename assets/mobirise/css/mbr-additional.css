@@ -244,18 +244,18 @@ body {
 }
 .btn-white,
 .btn-white:active {
-  background-color: #fafafa !important;
-  border-color: #fafafa !important;
-  color: #7a7a7a !important;
+  background-color: #fafafa;
+  border-color: #fafafa ;
+  color: #7a7a7a ;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
 }
 .btn-white:hover,
 .btn-white:focus,
 .btn-white.focus,
 .btn-white.active {
-  color: #4f4f4f !important;
-  background-color: #cfcfcf !important;
-  border-color: #cfcfcf !important;
+  color: #4f4f4f;
+  background-color: #cfcfcf ;
+  border-color: #cfcfcf;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 .btn-white.disabled,
@@ -720,7 +720,7 @@ a {
   color: #ffffff;
   margin-bottom: 2rem;
 }
-.cid-sIZDTtrUzk .card-wrapper .card-title {
+.cid-sIZDTtrUzk .card-wrapper .card-title-reloaded {
   color: #ffffff;
 }
 .cid-sIZDTtrUzk H1 {
@@ -730,7 +730,7 @@ a {
 .cid-sIZDTtrUzk .mbr-section-btn {
   color: #ffffff;
 }
-.cid-sIZDTtrUzk .card-wrapper .card-title,
+.cid-sIZDTtrUzk .card-wrapper .card-title-reloaded,
 .cid-sIZDTtrUzk .card-box {
   color: #ffffff;
 }
