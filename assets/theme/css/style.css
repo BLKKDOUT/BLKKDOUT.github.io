@@ -62,8 +62,9 @@ a, a:hover {
 }
 
 .mbr-text {
-  font-style: normal;
-  line-height: 1.7;
+    font-style: normal;
+    line-height: 1.7;
+    font-size: 18px;
 }
 
 h1,
