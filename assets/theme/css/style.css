@@ -3,6 +3,10 @@ section {
   background-color: #ffffff;
 }
 
+.montserrat_subrayda{
+	font-family: "Montserrat Subrayada";
+}
+
 body {
   font-style: normal;
   line-height: 1.5;
@@ -14,6 +18,10 @@ body {
 button {
   background-color: transparent;
   border-color: transparent;
+}
+
+.image-wrapper{
+	width: ;
 }
 
 section,
@@ -232,8 +240,8 @@ figure[mbr-media-size] {
 
 img,
 iframe {
-  display: block;
-  width: 100%;
+    display: block;
+    width: 80%;
 }
 
 .card {
@@ -356,7 +364,7 @@ nav .mbr-section-btn {
 }
 
 .card-wrapper{
-	color: white !important;
+    color: #000000 !important;
 }
 
 /*! Btn icon margin */
