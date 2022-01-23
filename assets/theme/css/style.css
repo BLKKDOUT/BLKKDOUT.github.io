@@ -3,6 +3,10 @@ section {
   background-color: #ffffff;
 }
 
+.montserrat_subrayda{
+	font-family: "Montserrat Subrayada";
+}
+
 body {
   font-style: normal;
   line-height: 1.5;
@@ -11,21 +15,13 @@ body {
   position: relative;
 }
 
-@media (prefers-color-scheme: dark) {
-  section{
-    color: #eee;
-  }
-	body{
-		background: #121212;
-	}
-  section a {
-    color: #809fff;
-  }
-}
-
 button {
   background-color: transparent;
   border-color: transparent;
+}
+
+.image-wrapper{
+	width: ;
 }
 
 section,
@@ -66,8 +62,9 @@ a, a:hover {
 }
 
 .mbr-text {
-  font-style: normal;
-  line-height: 1.7;
+    font-style: normal;
+    line-height: 1.7;
+    font-size: 18px;
 }
 
 h1,
@@ -244,8 +241,8 @@ figure[mbr-media-size] {
 
 img,
 iframe {
-  display: block;
-  width: 100%;
+    display: block;
+    width: 80%;
 }
 
 .card {
@@ -344,12 +341,39 @@ nav .mbr-section-btn {
   margin-right: 0rem;
 }
 
+.btn-white,
+.btn-white:active {
+  background-color: #fafafa;
+  border-color: #fafafa ;
+  color: #7a7a7a ;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+.btn-white:hover,
+.btn-white:focus,
+.btn-white.focus,
+.btn-white.active {
+  color: #4f4f4f;
+  background-color: #cfcfcf ;
+  border-color: #cfcfcf;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.btn-white.disabled,
+.btn-white:disabled {
+  color: #7a7a7a !important;
+  background-color: #cfcfcf !important;
+  border-color: #cfcfcf !important;
+}
+
+.card-wrapper{
+    color: #000000 !important;
+}
+
 /*! Btn icon margin */
 .btn .mbr-iconfont,
 .btn.btn-sm .mbr-iconfont {
   order: 1;
   cursor: pointer;
-  margin-left: 0.5rem;
+  margin-left: 2rem;
   vertical-align: sub;
 }
 
@@ -605,6 +629,10 @@ nav .mbr-section-btn {
 
 .nav-link .mbr-iconfont {
   margin-right: 0.5rem;
+}
+
+.mbr-iconfont{
+	font-size: 3em;
 }
 
 .navbar {
