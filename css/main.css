@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+@keyframes lineout {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0.0;
+  }
+
+  to {
+    opacity: 1.0;
+  }
+}
+
+@keyframes blinker{
+  50%{
+    opacity: 0;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+/*canvas {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  position: absolute;
+}*/
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 5vh;
+  position: absolute;
+  top: 3vh;
+}
+
+button:hover {
+  background: white;
+  color: black;
+}
+
+button {
+  cursor: pointer;
+  letter-spacing: 0vh;
+  font-size: 2vh;
+  font-family: 'DM Sans', sans-serif;
+  background: transparent;
+  border: white 0.2vw solid;
+  color: white;
+  width: 20vh;
+  height: 6vh;
+  border-radius: 50vh;
+  margin: 2vh;
+  transition: background .1s ease-in-out, color .1s ease-in-out;
+}
+
+.main-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: 'DM Sans', sans-serif;
+  width: 100%;
+  height: 100vh;
+  /*background-color: #4158D0;
+  background-image: -webkit-linear-gradient(313deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  background-image: -o-linear-gradient(313deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);*/
+}
+
+.title {
+  font-size: 2vw;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0;
+}
+
+.title h1, .title h3 {
+  animation: fade-in 2s ease-out;
+}
+
+.title hr {
+  color: white;
+  height: 0.5vh;
+  background: white;
+  border: none;
+  animation: lineout ease-in-out 2s;
+}
+
+span{
+  animation: blinker 1s linear infinite;
+}
+
+footer{
+  color: white;
+  font-family: Raleway;
+  font-size: 2vh;
+  height: 5vh;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  width: 100%;
+}
+
+footer a, footer a:any-link{
+  color: white;
+}
+
+@media screen and (max-width: 750px) {
+
+  .title{
+    font-size: 3.5vw;
+  }
+
+}
