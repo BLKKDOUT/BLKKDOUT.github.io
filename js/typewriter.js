@@ -1,4 +1,4 @@
-var quoteArray = ["WE MAKE GLASS WORK!"];
+var quoteArray = ["I work, you enjoy!"];
 var textPosition = 0;
 // speed in milliseconds
 var speed = 50;
